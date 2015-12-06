@@ -1,0 +1,50 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+/* Colors */
+body {
+  background-color: rgba(20, 20, 20, 0.8);
+  color: rgba(230, 230, 230, 0.9);
+  text-align: center;
+  margin: auto;
+  font-family: Lato;
+}
+
+label {
+  font-size: 18px;
+}
+
+.number {
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.btn-default {
+  background-color: rgba(230, 230, 230, 0.9);
+  padding: 10px 30px;
+  margin-bottom: 10px;
+}
+.btn-default:hover {
+  background-color: rgba(205, 205, 205, 0.9);
+}
+
+.col-sm-6 {
+  margin-bottom: 12px;
+}
+
+#timer-face {
+  margin: auto;
+  margin-top: 10px;
+  padding-top: 45px;
+  margin-bottom: 30px;
+}
+#timer-face:hover {
+  cursor: pointer;
+}
+
+.glyphicon:hover {
+  color: rgba(205, 205, 205, 0.9);
+  cursor: pointer;
+}
+
+#time-left {
+  font-size: 72px;
+}

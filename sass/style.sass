@@ -1,0 +1,47 @@
+@import url(https://fonts.googleapis.com/css?family=Lato)
+
+/* Colors */
+$white: rgba(230, 230, 230, .9)
+$white-hover: darken($white, 10%)
+$accent: gold
+
+body 
+  background-color: rgba(20, 20, 20, .8)
+  color: $white
+  text-align: center
+  margin: auto
+  font-family: Lato
+  
+label
+  font-size: 18px
+
+.number
+  font-size: 20px
+  letter-spacing: 1px
+  
+.btn-default
+  background-color: $white
+  padding: 10px 30px
+  margin-bottom: 10px
+  &:hover
+    background-color: darken($white, 10%)
+
+.col-sm-6 
+  margin-bottom: 12px
+  
+#timer-face 
+  margin: auto
+  margin-top: 10px
+  padding-top: 45px
+  margin-bottom: 30px
+  &:hover 
+    cursor: pointer
+  
+
+.glyphicon
+  &:hover 
+    color: $white-hover
+    cursor: pointer
+
+#time-left
+  font-size: 72px
